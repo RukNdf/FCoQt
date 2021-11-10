@@ -50,7 +50,6 @@ class Window(QWidget):
     #KEYBOARD INPUT
     def toggleVideoShortcuts(self, toggle):
         for shortcut in self.videoShortcuts:
-            print(shortcut)
             shortcut.setEnabled(toggle)
     
 
