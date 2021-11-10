@@ -73,7 +73,6 @@ class Window(QWidget):
     #-
     def dragEnterEvent(self, event):
         if event.mimeData().hasUrls():
-            print(event.mimeData().text())
             event.accept()
     #-
     def dropEvent(self, event):
